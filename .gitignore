@@ -2,10 +2,16 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.DS_Store
+.vscode/
 
 # C extensions
 *.so
 
+# Ignore all midi files
+**/*.midi
+**/*.mid
+ 
 # Distribution / packaging
 .Python
 build/
